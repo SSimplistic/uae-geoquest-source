@@ -33,7 +33,7 @@ flutter pub get
 flutter run
 ```
 
-Requires Flutter [version] or later. Run `flutter --version` to check yours.
+Requires Flutter 3.0.0 or later. Run `flutter --version` to check yours.
 
 ## Author
 
