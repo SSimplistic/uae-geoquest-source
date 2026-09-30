@@ -27,8 +27,8 @@ Home Page | Emirate information | Quiz question | Results |
 ## Running Locally
 
 ```bash
-git clone https://github.com/SSimplistic/uae-geoquest.git
-cd uae-geoquest
+git clone https://github.com/SSimplistic/uae-geoquest-source.git
+cd uae-geoquest-source
 flutter pub get
 flutter run
 ```
