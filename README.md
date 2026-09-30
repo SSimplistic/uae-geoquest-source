@@ -1,16 +1,40 @@
-# emirate_insight
+# UAE GeoQuest
 
-A new Flutter project.
+A mobile-first Flutter app that teaches users about the seven Emirates of the UAE and tests their knowledge with a quiz.
 
-## Getting Started
+**Live demo:** https://ssimplistic.github.io/uae-geoquest/
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+Home Page | Emirate information | Quiz question | Results |
+|---|---|---|---|
+![Info](screenshots/home.png)| ![Info](screenshots/info.png) | ![Quiz](screenshots/quiz.png) | ![Results](screenshots/results.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Home page: Select an emirate from a map of the UAE, and click Learn More to view information about the selected emirate.
+- Each of the 7 Emirates has an information page containing the following: General Info (size, history, geographical features), Landmarks, Current Ruler, and something the emirate is Known For.
+- Quiz mode: 5 questions, multiple choice, instant feedback and final score given after answering the last question
+- Designed for mobile screens, also runs in the browser as a Flutter web build
+
+## Tech Stack
+
+- Flutter / Dart
+- Packages: flutter_lints, flutter_svg, google_fonts, cupertino_icons
+- Data: Hardcoded in constants.dart file
+- Deployment: Flutter web build hosted on GitHub Pages
+
+## Running Locally
+
+```bash
+git clone https://github.com/SSimplistic/uae-geoquest.git
+cd uae-geoquest
+flutter pub get
+flutter run
+```
+
+Requires Flutter [version] or later. Run `flutter --version` to check yours.
+
+## Author
+
+Muhammad Imran Mikhael
